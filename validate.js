@@ -91,6 +91,13 @@ $.ajax({
     {
       // debug
       console.log("email valid")
+<<<<<<< Updated upstream
+=======
+
+      // change the username
+      $('#user').text(usernameInput)
+
+>>>>>>> Stashed changes
         
       // display if email is valid
       $('#form_results').text('Email is VALID!')
